@@ -14,11 +14,7 @@ If your local branch is not in sync with the remote branch:
 git pull origin <branch>
 ```
 
-To create a new branch:
 
-```
-git checkout -b <branch_name>
-```
 
 ## Pushing local branch to remote
 
@@ -37,3 +33,34 @@ git add <files>
 git commit -m "Insert commit message here"
 git push origin <branch>
 ```
+
+## Workflow
+
+Each member will create their own branch when working on a new feature. 
+
+To create a new branch:
+
+```
+git checkout -b <branch_name>
+```
+
+# To make sure that your branch is synced with master:
+
+First, make sure that there are no local changes.
+
+```
+git checkout master
+git pull origin master
+git checkout <feature_branch>
+git rebase master
+```
+
+Once you are ready to merge a feature branch with master, follow the procedures to push your local branch to remote:
+
+```
+git add <files>
+git commit -m "Insert commit message here"
+git push origin <branch>
+```
+
+Then, using the Github GUI, create a Pull request.
