@@ -52,7 +52,8 @@ First, make sure that there are no local changes.
 git checkout master
 git pull origin master
 git checkout <feature_branch>
-git rebase master
+git merge master
+git push origin <feature_branch>
 ```
 
 Once you are ready to merge a feature branch with master, follow the procedures to push your local branch to remote:
