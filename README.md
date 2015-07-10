@@ -44,7 +44,7 @@ To create a new branch:
 git checkout -b <branch_name>
 ```
 
-# To make sure that your branch is synced with master:
+To make sure that your branch is synced with master:
 
 First, make sure that there are no local changes.
 
