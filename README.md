@@ -1,4 +1,13 @@
-### Repository for Mobile Development for SmartHub
+### Repository for SmartHub
+
+## Dependencies
+
+The following python libraries need to be installed. First, install pip. Then, install the following dependencies:
+
+```
+pip install python-nest
+pip install requests[security]
+```
 
 Guidelines to ensure proper Git workflow
 
