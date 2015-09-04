@@ -9,6 +9,7 @@ pip install python-nest
 pip install requests[security]
 ```
 
+## Git
 Guidelines to ensure proper Git workflow
 
 To check the status of your repository:
