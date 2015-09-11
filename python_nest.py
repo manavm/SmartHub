@@ -7,6 +7,7 @@ class Nest:
     def __init__(self, username = None, password = None):
         self.username = 'ericmaras@gmail.com'
         self.password = 'Eric12!@'
+        napi = nest.Nest(self.username, self.password)
         for structure in napi.structures:
             print 'Structure %s' % structure.name
             print '    Away: %s' % structure.away
