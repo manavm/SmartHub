@@ -1,8 +1,6 @@
-
-# coding: utf-8
-
 import nest
 from nest import utils as nest_utils
+import sys
 import requests
 
 class Nest:
